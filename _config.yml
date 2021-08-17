@@ -1,6 +1,6 @@
 # general configuration
-url: https://brice.green/academicecon
-domain: brice.green
+url: https://academicecon.github.io
+domain: academicecon.github.io
 baseurl: /academicecon/
 
 # compass configuration
