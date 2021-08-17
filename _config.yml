@@ -1,7 +1,7 @@
 # general configuration
 url: https://academicecon.github.io
 domain: academicecon.github.io
-baseurl: /academicecon/
+baseurl: 
 
 # compass configuration
 compass:
