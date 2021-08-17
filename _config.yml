@@ -1,0 +1,33 @@
+# general configuration
+url: https://brice.green/academicecon
+domain: brice.green
+baseurl: /academicecon/
+
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  logo: "/images/aelogo.jpg"
+  # author will appear under the avatar (optional)
+  author: "Academic Economics Discord"
+  # tagline will appear under the title (optional)
+  tagline: "A discord community for discussing academic economics."
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
+  # Twitter @username (as defined by the Twitter Card specs)
+  twitter: "Academic_Econ"
+  twitch: "academic_econ"
+
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: pretty
