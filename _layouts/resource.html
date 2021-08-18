@@ -5,14 +5,14 @@ layout: articlelist
   {% assign links = site.data.navigation %}
 
   <button class="dropbtn">
-    <a href="{{ site.url }}{{ site.baseurl }}/events" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Announcements</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/announcements" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
     <i class="fa fa-caret-down fa-2x main-list-item-icon"></i>
   </button>
   <div class="dropdown-content">
     {% for link in links %}
-      {% if link.url contains 'event' %}
+      {% if link.url contains 'resource' %}
       {% else %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+        <a href="{{ site.url }}{{ site.baseurl }}{{link.url }}">{{ link.title }}</a>
       {% endif %}
     {% endfor %}
   </div>
