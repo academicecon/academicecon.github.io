@@ -245,6 +245,12 @@ footer {
 		text-align: right;
 	}
 
+	.timeline-Tweet-text {
+		font-size: 16px !important;
+		line-height: 25px !important;
+		font-weight: 300 !important;
+	}
+
 	.author-container h1,
 	.logo-container,
 	.tagline-container p {
@@ -290,9 +296,13 @@ footer {
 
 	.portfolio {
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		  gap: 10px;
-		  grid-auto-rows: minmax(100px, auto);
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 10px;
+		grid-auto-rows: minmax(200px, auto);
+	}
+
+	.portfolio a:hover {
+		background-color: transparent;
 	}
 
 }

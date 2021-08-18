@@ -20,7 +20,8 @@ title: Announcements
   </div>
 </nav>
 <ul>
-  {% for announcement in site.announcements %}
+  {% assign sorted = site.announcements | sort: 'date' | reverse %}
+  {% for announcement in sorted %}
     <ul>
       <a href = {{announcement.url}} style = "font-size: 1.5em;"> {{ announcement.title}}</a>
       <p><em>Published on {{announcement.date | date: "%-d %B %Y"}}</em> </p>

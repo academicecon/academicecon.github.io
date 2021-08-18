@@ -21,7 +21,8 @@ title: Resources
 </nav>
 <br>
 <div class = "portfolio">
-    {% for resource in site.resources %}
+    {% assign sorted = site.resources | sort: 'date' | reverse %}
+    {% for resource in sorted %}
     <div class = "portfolio-member">
       <a href = {{resource.url}} style = "font-size: 1.2em;">
         <img src = {{resource.image}} height = 240px width = 240px> 
