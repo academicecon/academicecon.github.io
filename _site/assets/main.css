@@ -208,6 +208,10 @@ footer {
   .tagline-container p {
     text-align: right; }
 
+  .twitter-embed {
+    display: inline-block;
+    width: 85%; }
+
   main {
     width: 46%;
     margin-left: 54%;
