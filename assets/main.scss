@@ -215,6 +215,7 @@ footer {
 		margin: 10% auto 0 auto;
 	}
 	.article-header {
+		display: none;
 		visibility: hidden;
 	}
 }
@@ -268,6 +269,7 @@ footer {
 
 	.article-header {
 		visibility: visible;
+		display: block;
 	}
 
 	.article-header a:hover {
