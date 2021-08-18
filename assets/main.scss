@@ -218,8 +218,15 @@ footer {
 		display: none;
 		visibility: hidden;
 	}
-}
 
+	.portfolio {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+		grid-auto-rows: minmax(100px, auto);
+	}
+
+}
 
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
@@ -252,7 +259,7 @@ footer {
 
 
 	.article {
-		width: 66%;
+		width: 45%;
 		margin-left: 34%;
 		padding: 0;
 	}
@@ -275,14 +282,17 @@ footer {
 	.article-header a:hover {
 		background-color: transparent;
 	}
+
+	.portfolio {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		  gap: 10px;
+		  grid-auto-rows: minmax(100px, auto);
+	}
+
 }
 
-.portfolio {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-  	gap: 10px;
-  	grid-auto-rows: minmax(100px, auto);
-}
+
 
   
 
