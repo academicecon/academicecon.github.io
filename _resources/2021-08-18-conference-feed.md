@@ -1,6 +1,6 @@
 ---
 layout: resource
-image: twitter-feeds/twitter-logo.png
+image: /resources/twitter-feeds/twitter-logo.png
 title: Economics Conference Tracker
 ---
 
