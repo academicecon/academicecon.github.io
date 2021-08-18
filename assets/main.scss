@@ -279,8 +279,11 @@ footer {
 
 .portfolio {
 	display: grid;
-	grid-template-columns: 200px 200px 200px;
+	grid-template-columns: repeat(3, 1fr);
+  	gap: 10px;
+  	grid-auto-rows: minmax(100px, auto);
 }
+
   
 
 

@@ -19,11 +19,15 @@ title: Resources
       {% endfor %}
     </div>
 </nav>
+<br>
 <div class = "portfolio">
     {% for resource in site.resources %}
-    <div>
-      <img src = {{resource.image}}>
-      <a href = {{resource.url}} style = "font-size: 1.5em;"> {{ resource.title}}</a>
+    <div class = "portfolio-member">
+      <a href = {{resource.url}} style = "font-size: 1.2em;">
+        <img src = {{resource.image}} height = 240px width = 240px> 
+        <br>
+        {{ resource.title}}
+      </a>
     </div>
     {% endfor %}
 </div>
