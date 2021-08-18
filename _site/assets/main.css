@@ -181,7 +181,13 @@ footer {
 
   .article-header {
     display: none;
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto); } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
@@ -208,7 +214,7 @@ footer {
     padding: 0; }
 
   .article {
-    width: 66%;
+    width: 45%;
     margin-left: 34%;
     padding: 0; }
 
@@ -226,9 +232,10 @@ footer {
     display: block; }
 
   .article-header a:hover {
-    background-color: transparent; } }
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  grid-auto-rows: minmax(100px, auto); }
+    background-color: transparent; }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto); } }
