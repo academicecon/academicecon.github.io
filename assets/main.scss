@@ -204,7 +204,7 @@ footer {
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
-@media (min-height: 360px) {
+@media (min-width: 5px) {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
 		width: 95%;
@@ -215,6 +215,7 @@ footer {
 		margin: 10% auto 0 auto;
 	}
 	.article-header {
+		display: none;
 		visibility: hidden;
 	}
 }
@@ -268,6 +269,7 @@ footer {
 
 	.article-header {
 		visibility: visible;
+		display: block;
 	}
 
 	.article-header a:hover {
