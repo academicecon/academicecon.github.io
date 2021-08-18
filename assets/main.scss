@@ -215,21 +215,6 @@ footer {
 	}
 }
 
-@media (min-height: 480px) {
-	/* wrapper stays 480px wide past 480px wide and is kept centered */
-	.wrapper {
-		width: 480px;
-		margin: 10% auto 0 auto;
-	}
-	.article-wrapper {
-		width: 480px;
-		margin: 10% auto 0 auto;
-	}
-	.article-header {
-		display: none;
-		visibility: hidden;
-	}
-}
 
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
