@@ -107,6 +107,11 @@ main {
 	display: block;
 }
 
+  /* Show the dropdown menu on hover */
+.dropdown:active .dropdown-content {
+	display: block;
+}
+
 /*** anchor tags ***/
 a:link,
 a:visited,
@@ -199,18 +204,17 @@ footer {
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
-@media (min-width: 480px) {
+@media (min-width: 360px) {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
-		width: 480px;
+		width: 95%;
 		margin: 10% auto 0 auto;
 	}
 	.article-wrapper {
-		width: 480px;
+		width: 95%;
 		margin: 10% auto 0 auto;
 	}
 	.article-header {
-		display: none;
 		visibility: hidden;
 	}
 }
@@ -260,6 +264,10 @@ footer {
 	.article-wrapper .article-header,
 	.article-wrapper .tagline-container {
 		text-align: center;
+	}
+
+	.article-header {
+		visibility: visible;
 	}
 
 	.article-header a:hover {
