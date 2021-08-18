@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="article-wrapper">
+  <header>
+      {% if site.compass.logo %}
+      <div class="logo-container">
+        <a class="logo" href="{{ site.url }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+      </div>
+      {% endif %}
+      <div class="article-header">
+        {% include medialinks.html %}
+      </div>
+  </header>
+  <div class = "article">      
+    {{content}}
+  </div>
+</div>

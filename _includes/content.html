@@ -1,6 +1,21 @@
-<h2>About Us</h2>
-<p> We aim to provide a welcoming and open environment to individuals, whether seeking next steps, to discuss research, or professional information.</p>
+<nav class="dropdown navbar">
+  {% assign links = site.data.navigation %}
 
+  <button class="dropbtn">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+    <i class="fa fa-caret-down fa-2x main-list-item-icon"></i>
+  </button>
+  <div class="dropdown-content">
+    {% for link in links %}
+      {% if link.url contains 'index.html' %}
+      {% else %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{link.url }}">{{ link.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>
+
+<p> We aim to provide a welcoming and open environment to individuals, whether seeking next steps, to discuss research, or professional information.</p>
 
 <p>Join us on <a href="http://discord.gg/ZDghcfP">Discord</a>.</p>
 

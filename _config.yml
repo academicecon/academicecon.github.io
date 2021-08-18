@@ -1,6 +1,8 @@
 # general configuration
-url: https://academicecon.github.io
-domain: academicecon.github.io
+url: 
+  #https://academicecon.github.io
+domain: 
+  #academicecon.github.io
 baseurl: 
 
 # compass configuration
@@ -20,7 +22,6 @@ compass:
   include_analytics: false
   # Twitter @username (as defined by the Twitter Card specs)
   twitter: "Academic_Econ"
-  twitch: "academic_econ"
 
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
@@ -28,6 +29,14 @@ exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # Dependencies
 markdown: kramdown
 highlighter: rouge
+
+collections:
+  announcements:
+    output: true
+  events:
+    output: true
+  resources:
+    output: true
 
 # Permalinks
 permalink: pretty

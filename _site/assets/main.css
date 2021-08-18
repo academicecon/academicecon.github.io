@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'Vollkorn', serif;
   color: #46433A;
@@ -11,6 +12,80 @@ main {
 .wrapper {
   margin-top: 10%; }
 
+.navbar a {
+  color: #46433A;
+  font-size: 1.8em; }
+
+.navbar a:hover {
+  background-color: #F1EED9;
+  color: #46433A; }
+
+.navbar a:link {
+  color: #46433A;
+  font-size: 1.8em; }
+
+.navbar a:visited {
+  color: #46433A;
+  font-size: 1.8em; }
+
+.navbar a:active {
+  color: #46433A;
+  font-size: 1.8em; }
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0; }
+
+​
+.navbar button {
+  list-style: none;
+  padding-left: 0;
+  border: none; }
+
+​
+.navbar a:visited {
+  color: #46433A;
+  font-size: 2em; }
+
+.navbar button {
+  background-color: transparent;
+  border: transparent; }
+
+/* Add a black background color to the top navigation */
+.navbar {
+  overflow: hidden; }
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none; }
+
+/* The dropdown container */
+.dropdown {
+  overflow: hidden; }
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  padding: 0;
+  background-color: inherit;
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */ }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none; }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  display: block;
+  text-align: left; }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block; }
+
 /*** anchor tags ***/
 a:link,
 a:visited,
@@ -20,6 +95,7 @@ a:active {
   text-decoration: none; }
 
 a:hover {
+  background-color: #eaddc6;
   text-decoration: underline; }
 
 /*** main content list ***/
@@ -93,6 +169,10 @@ footer {
   /* wrapper stays 480px wide past 480px wide and is kept centered */
   .wrapper {
     width: 480px;
+    margin: 10% auto 0 auto; }
+
+  .article-wrapper {
+    width: 480px;
     margin: 10% auto 0 auto; } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
@@ -105,7 +185,8 @@ footer {
   aligned right */
   header {
     float: left;
-    width: 46%;
+    width: 25%;
+    margin-left: 10%;
     text-align: right; }
 
   .author-container h1,
@@ -116,4 +197,21 @@ footer {
   main {
     width: 46%;
     margin-left: 54%;
-    padding: 0; } }
+    padding: 0; }
+
+  .article {
+    width: 66%;
+    margin-left: 34%;
+    padding: 0; }
+
+  .article-wrapper {
+    width: 100%; }
+
+  .article-wrapper .author-container h1,
+  .article-wrapper .logo-container,
+  .article-wrapper .article-header,
+  .article-wrapper .tagline-container {
+    text-align: center; }
+
+  .article-header a:hover {
+    background-color: transparent; } }

@@ -1,0 +1,30 @@
+---
+layout: articlelist
+title: Events
+---
+
+<nav class="dropdown navbar">
+  {% assign links = site.data.navigation %}
+
+  <button class="dropbtn">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
+    <i class="fa fa-caret-down fa-2x main-list-item-icon"></i>
+  </button>
+  <div class="dropdown-content">
+    {% for link in links %}
+      {% if link.url contains 'event' %}
+      {% else %}
+        <a href="{{ site.url }}{{ site.baseurl }}{{link.url }}">{{ link.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>
+<ul>
+  {% for event in site.events %}
+    <ul>
+      <a href = {{announcement.url}} style = "font-size: 1.5em;"> {{ event.title}}</a>
+      <p><em>Published on {{event.date | date: "%-d %B %Y"}}</em> </p>
+      <p>{{ event.content | markdownify }}</p>
+    </ul>
+  {% endfor %}
+</ul>
