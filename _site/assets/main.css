@@ -173,7 +173,24 @@ footer {
 
   .article-wrapper {
     width: 480px;
-    margin: 10% auto 0 auto; } }
+    margin: 10% auto 0 auto; }
+
+  .article-header {
+    display: none;
+    visibility: hidden; } }
+@media (min-height: 480px) {
+  /* wrapper stays 480px wide past 480px wide and is kept centered */
+  .wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto; }
+
+  .article-wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto; }
+
+  .article-header {
+    display: none;
+    visibility: hidden; } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
