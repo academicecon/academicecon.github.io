@@ -204,7 +204,7 @@ footer {
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
-@media (min-width: 360px) {
+@media (min-height: 360px) {
 	/* wrapper stays 480px wide past 480px wide and is kept centered */
 	.wrapper {
 		width: 95%;
