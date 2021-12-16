@@ -10,7 +10,7 @@ Thanks to the lovely suggestion of user `g`, several of our community members em
 Submissions: 
 
 g: _COARSE BELIEF ELICITATION_\\
-WannabePolicy: _The NEP Predicament: Obstacles and the Way Forward_\\
+WannabePolicyWonk: _The NEP Predicament: Obstacles and the Way Forward_\\
 ToastBall:  _Genesis of the Sicilian Mafia_\\
 asd: _Ranking Biased Algorithms: a Welfare Perspective_\\
 EconJohn:  _Harmonizing Cost-Effectiveness Analysis and Budget Impact Analysis through Frischian Demand Specification_\\
