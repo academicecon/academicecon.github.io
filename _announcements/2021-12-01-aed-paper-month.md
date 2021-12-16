@@ -11,10 +11,10 @@ Thanks and congratulations to everyone who submitted a paper! For authors who wa
 
 Submissions: 
 
-g: COARSE BELIEF ELICITATION\\
-WannabePolicy: The NEP Predicament: Obstacles and the Way Forward\\
-ToastBall:  Genesis of the Sicilian Mafia\\
-asd: Ranking Biased Algorithms: a Welfare Perspective\\ 
-EconJohn:  Harmonizing Cost-Effectiveness Analysis and Budget Impact Analysis through Frischian Demand Specification\\
-brice-green: From LATE to Great: Efficient Estimation of Heterogeneous Treatment Effects with Gaussian Markov Random Fields\\
+g: _COARSE BELIEF ELICITATION_\\
+WannabePolicy: _The NEP Predicament: Obstacles and the Way Forward_\\
+ToastBall:  _Genesis of the Sicilian Mafia_\\
+asd: _Ranking Biased Algorithms: a Welfare Perspective_\\ 
+EconJohn:  _Harmonizing Cost-Effectiveness Analysis and Budget Impact Analysis through Frischian Demand Specification_\\
+brice-green: _From LATE to Great: Efficient Estimation of Heterogeneous Treatment Effects with Gaussian Markov Random Fields_
 
